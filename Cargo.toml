@@ -1,21 +1,9 @@
 [package]
 name = "vocrab"
 version = "0.1.0"
-description = "Vocrab helps users create and review vocab flashcards."
-authors = ["Christopher Leap"]
-license = "MIT OR Apache-2.0"
 edition = "2018"
-exclude = ["index.node"]
-
-[lib]
-crate-type = ["cdylib"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-num_cpus = "1"
-
-[dependencies.neon]
-version = "0.9"
-default-features = false
-features = ["napi-6"]
+fltk = "^1.2"

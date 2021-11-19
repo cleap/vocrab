@@ -1,6 +1,6 @@
 /target
 node_modules
-
+venv
 
 # Added by cargo
 #

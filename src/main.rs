@@ -102,6 +102,7 @@ fn map_from_array(token_array: &Vec<Vec<Token>>) -> LemmaMap {
 }
 
 type LemmaVec<'a> = Vec<(&'a String, &'a HashMap<String, Vec<(usize, usize)>>)>;
+type FormVec<'a> = Vec<(&'a String, &'a Vec<(usize, usize)>)>;
 
 fn main() {
     let filepath = "data/emos-vs-punks.json";
@@ -126,7 +127,7 @@ fn main() {
             form_map.word_count()
         );
 
-        let mut form_vec: Vec<(&String, &Vec<(usize, usize)>)> = form_map.iter().collect();
+        let mut form_vec: FormVec = form_map.iter().collect();
         form_vec.sort_by(|a, b| b.1.len().cmp(&a.1.len()));
 
         for (j, (form, poss)) in form_vec.into_iter().enumerate() {

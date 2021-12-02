@@ -53,7 +53,7 @@
       },
       {
         "text":"Ciudad",
-        "lemma":"Ciudad",
+        "lemma":"ciudad",
         "pos":"PROPN"
       },
       {
@@ -63,7 +63,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -152,12 +152,12 @@
       },
       {
         "text":"Radio",
-        "lemma":"Radio",
+        "lemma":"radio",
         "pos":"PROPN"
       },
       {
         "text":"Ambulante",
-        "lemma":"Ambulante",
+        "lemma":"ambulante",
         "pos":"PROPN"
       },
       {
@@ -167,7 +167,7 @@
       },
       {
         "text":"NPR",
-        "lemma":"NPR",
+        "lemma":"npr",
         "pos":"PROPN"
       },
       {
@@ -179,17 +179,17 @@
     [
       {
         "text":"Soy",
-        "lemma":"Soy",
+        "lemma":"soy",
         "pos":"PROPN"
       },
       {
         "text":"Daniel",
-        "lemma":"Daniel",
+        "lemma":"daniel",
         "pos":"PROPN"
       },
       {
         "text":"Alarcón",
-        "lemma":"Alarcón",
+        "lemma":"alarcón",
         "pos":"PROPN"
       },
       {
@@ -246,7 +246,7 @@
       },
       {
         "text":"Ciudad",
-        "lemma":"Ciudad",
+        "lemma":"ciudad",
         "pos":"PROPN"
       },
       {
@@ -256,7 +256,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -296,12 +296,12 @@
       },
       {
         "text":"Distrito",
-        "lemma":"Distrito",
+        "lemma":"distrito",
         "pos":"PROPN"
       },
       {
         "text":"Federal",
-        "lemma":"Federal",
+        "lemma":"federal",
         "pos":"PROPN"
       },
       {
@@ -368,7 +368,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -378,7 +378,7 @@
       },
       {
         "text":"Insurgentes",
-        "lemma":"Insurgentes",
+        "lemma":"insurgentes",
         "pos":"PROPN"
       },
       {
@@ -492,12 +492,12 @@
       },
       {
         "text":"TV",
-        "lemma":"TV",
+        "lemma":"tv",
         "pos":"PROPN"
       },
       {
         "text":"Azteca",
-        "lemma":"Azteca",
+        "lemma":"azteca",
         "pos":"PROPN"
       },
       {
@@ -514,7 +514,7 @@
       },
       {
         "text":"Emos",
-        "lemma":"Emos",
+        "lemma":"emos",
         "pos":"PROPN"
       },
       {
@@ -935,7 +935,7 @@
     [
       {
         "text":"Emo",
-        "lemma":"Emo",
+        "lemma":"emo",
         "pos":"PROPN"
       },
       {
@@ -1262,7 +1262,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -1272,7 +1272,7 @@
       },
       {
         "text":"Insurgentes",
-        "lemma":"Insurgentes",
+        "lemma":"insurgentes",
         "pos":"PROPN"
       },
       {
@@ -1522,7 +1522,7 @@
     [
       {
         "text":"Anarquía",
-        "lemma":"Anarquía",
+        "lemma":"anarquía",
         "pos":"PROPN"
       },
       {
@@ -1902,7 +1902,7 @@
       },
       {
         "text":"Haz",
-        "lemma":"Haz",
+        "lemma":"haz",
         "pos":"PROPN"
       },
       {
@@ -1938,7 +1938,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"ADJ"
+        "pos":"PUNCT"
       },
       {
         "text":".",
@@ -2029,7 +2029,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -2039,7 +2039,7 @@
       },
       {
         "text":"Insurgentes",
-        "lemma":"Insurgentes",
+        "lemma":"insurgentes",
         "pos":"PROPN"
       },
       {
@@ -2203,7 +2203,7 @@
       },
       {
         "text":"Ciudad",
-        "lemma":"Ciudad",
+        "lemma":"ciudad",
         "pos":"PROPN"
       },
       {
@@ -2213,7 +2213,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -2350,12 +2350,12 @@
       },
       {
         "text":"Radio",
-        "lemma":"Radio",
+        "lemma":"radio",
         "pos":"PROPN"
       },
       {
         "text":"Ambulante",
-        "lemma":"Ambulante",
+        "lemma":"ambulante",
         "pos":"PROPN"
       },
       {
@@ -2447,12 +2447,12 @@
       },
       {
         "text":"Fernanda",
-        "lemma":"Fernanda",
+        "lemma":"fernanda",
         "pos":"PROPN"
       },
       {
         "text":"Guzmán",
-        "lemma":"Guzmán",
+        "lemma":"guzmán",
         "pos":"PROPN"
       },
       {
@@ -2541,12 +2541,12 @@
       },
       {
         "text":"NPR",
-        "lemma":"NPR",
+        "lemma":"npr",
         "pos":"PROPN"
       },
       {
         "text":"Squarespace",
-        "lemma":"Squarespace",
+        "lemma":"squarespace",
         "pos":"PROPN"
       },
       {
@@ -2738,7 +2738,7 @@
       },
       {
         "text":"Squarespace",
-        "lemma":"Squarespace",
+        "lemma":"squarespace",
         "pos":"PROPN"
       },
       {
@@ -2887,13 +2887,13 @@
       },
       {
         "text":"NPR",
-        "lemma":"NPR",
+        "lemma":"npr",
         "pos":"PROPN"
       },
       {
         "text":"”",
         "lemma":"”",
-        "pos":"NUM"
+        "pos":"PUNCT"
       },
       {
         "text":"para",
@@ -3009,12 +3009,12 @@
       },
       {
         "text":"NPR",
-        "lemma":"NPR",
+        "lemma":"npr",
         "pos":"PROPN"
       },
       {
         "text":"CarMax",
-        "lemma":"CarMax",
+        "lemma":"carmax",
         "pos":"PROPN"
       },
       {
@@ -3116,7 +3116,7 @@
     [
       {
         "text":"CarMax",
-        "lemma":"CarMax",
+        "lemma":"carmax",
         "pos":"PROPN"
       },
       {
@@ -3213,7 +3213,7 @@
       },
       {
         "text":"CarMax",
-        "lemma":"CarMax",
+        "lemma":"carmax",
         "pos":"PROPN"
       },
       {
@@ -3370,7 +3370,7 @@
       },
       {
         "text":"CarMax",
-        "lemma":"CarMax",
+        "lemma":"carmax",
         "pos":"PROPN"
       },
       {
@@ -3536,7 +3536,7 @@
       },
       {
         "text":"CarMax",
-        "lemma":"CarMax",
+        "lemma":"carmax",
         "pos":"PROPN"
       },
       {
@@ -3590,12 +3590,12 @@
       },
       {
         "text":"Radio",
-        "lemma":"Radio",
+        "lemma":"radio",
         "pos":"PROPN"
       },
       {
         "text":"Ambulante",
-        "lemma":"Ambulante",
+        "lemma":"ambulante",
         "pos":"PROPN"
       },
       {
@@ -3617,7 +3617,7 @@
       },
       {
         "text":"Fernanda",
-        "lemma":"Fernanda",
+        "lemma":"fernanda",
         "pos":"PROPN"
       },
       {
@@ -4357,7 +4357,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -4590,7 +4590,7 @@
     [
       {
         "text":"Facebook",
-        "lemma":"Facebook",
+        "lemma":"facebook",
         "pos":"PROPN"
       },
       {
@@ -4600,7 +4600,7 @@
       },
       {
         "text":"Twitter",
-        "lemma":"Twitter",
+        "lemma":"twitter",
         "pos":"PROPN"
       },
       {
@@ -4682,12 +4682,12 @@
       },
       {
         "text":"My",
-        "lemma":"My",
+        "lemma":"my",
         "pos":"PROPN"
       },
       {
         "text":"Space",
-        "lemma":"Space",
+        "lemma":"space",
         "pos":"PROPN"
       },
       {
@@ -4697,7 +4697,7 @@
       },
       {
         "text":"Hi",
-        "lemma":"Hi",
+        "lemma":"hi",
         "pos":"PROPN"
       },
       {
@@ -4712,7 +4712,7 @@
       },
       {
         "text":"Metroflog",
-        "lemma":"Metroflog",
+        "lemma":"metroflog",
         "pos":"PROPN"
       },
       {
@@ -5635,7 +5635,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"ADJ"
+        "pos":"PUNCT"
       },
       {
         "text":".",
@@ -5646,7 +5646,7 @@
     [
       {
         "text":"Traté",
-        "lemma":"Traté",
+        "lemma":"traté",
         "pos":"PROPN"
       },
       {
@@ -5701,7 +5701,7 @@
       },
       {
         "text":"Y",
-        "lemma":"Y",
+        "lemma":"y",
         "pos":"CCONJ"
       },
       {
@@ -5737,7 +5737,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"ADJ"
+        "pos":"PUNCT"
       },
       {
         "text":",",
@@ -6264,12 +6264,12 @@
       },
       {
         "text":"Ollin",
-        "lemma":"Ollin",
+        "lemma":"ollin",
         "pos":"PROPN"
       },
       {
         "text":"Sánchez",
-        "lemma":"Sánchez",
+        "lemma":"sánchez",
         "pos":"PROPN"
       },
       {
@@ -6319,13 +6319,13 @@
       },
       {
         "text":"Mosco",
-        "lemma":"Mosco",
+        "lemma":"mosco",
         "pos":"PROPN"
       },
       {
         "text":"”",
         "lemma":"”",
-        "pos":"PROPN"
+        "pos":"PUNCT"
       },
       {
         "text":".",
@@ -6562,7 +6562,7 @@
     [
       {
         "text":"Ollin",
-        "lemma":"Ollin",
+        "lemma":"ollin",
         "pos":"PROPN"
       },
       {
@@ -6662,7 +6662,7 @@
       },
       {
         "text":"Ciudad",
-        "lemma":"Ciudad",
+        "lemma":"ciudad",
         "pos":"PROPN"
       },
       {
@@ -6672,7 +6672,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -6761,7 +6761,7 @@
       },
       {
         "text":"En",
-        "lemma":"En",
+        "lemma":"en",
         "pos":"ADP"
       },
       {
@@ -7134,7 +7134,7 @@
       },
       {
         "text":"MySpace",
-        "lemma":"MySpace",
+        "lemma":"myspace",
         "pos":"PROPN"
       },
       {
@@ -7201,12 +7201,12 @@
       },
       {
         "text":"Estados",
-        "lemma":"Estados",
+        "lemma":"estados",
         "pos":"PROPN"
       },
       {
         "text":"Unidos",
-        "lemma":"Unidos",
+        "lemma":"unidos",
         "pos":"PROPN"
       },
       {
@@ -7300,7 +7300,7 @@
       },
       {
         "text":"MySpace",
-        "lemma":"MySpace",
+        "lemma":"myspace",
         "pos":"PROPN"
       },
       {
@@ -7409,12 +7409,12 @@
       },
       {
         "text":"Alejandro",
-        "lemma":"Alejandro",
+        "lemma":"alejandro",
         "pos":"PROPN"
       },
       {
         "text":"Castillo",
-        "lemma":"Castillo",
+        "lemma":"castillo",
         "pos":"PROPN"
       },
       {
@@ -7434,13 +7434,13 @@
       },
       {
         "text":"Bake",
-        "lemma":"Bake",
+        "lemma":"bake",
         "pos":"PROPN"
       },
       {
         "text":"”",
         "lemma":"”",
-        "pos":"PROPN"
+        "pos":"PUNCT"
       },
       {
         "text":",",
@@ -7479,7 +7479,7 @@
       },
       {
         "text":"Ollín",
-        "lemma":"Ollín",
+        "lemma":"ollín",
         "pos":"PROPN"
       },
       {
@@ -7821,12 +7821,12 @@
       },
       {
         "text":"Estados",
-        "lemma":"Estados",
+        "lemma":"estados",
         "pos":"PROPN"
       },
       {
         "text":"Unidos",
-        "lemma":"Unidos",
+        "lemma":"unidos",
         "pos":"PROPN"
       },
       {
@@ -7836,17 +7836,17 @@
       },
       {
         "text":"My",
-        "lemma":"My",
+        "lemma":"my",
         "pos":"PROPN"
       },
       {
         "text":"Chemical",
-        "lemma":"Chemical",
+        "lemma":"chemical",
         "pos":"PROPN"
       },
       {
         "text":"Romance",
-        "lemma":"Romance",
+        "lemma":"romance",
         "pos":"PROPN"
       },
       {
@@ -7856,7 +7856,7 @@
       },
       {
         "text":"Paramore",
-        "lemma":"Paramore",
+        "lemma":"paramore",
         "pos":"PROPN"
       },
       {
@@ -7866,17 +7866,17 @@
       },
       {
         "text":"Fall",
-        "lemma":"Fall",
+        "lemma":"fall",
         "pos":"PROPN"
       },
       {
         "text":"Out",
-        "lemma":"Out",
+        "lemma":"out",
         "pos":"PROPN"
       },
       {
         "text":"Boy",
-        "lemma":"Boy",
+        "lemma":"boy",
         "pos":"PROPN"
       },
       {
@@ -7918,7 +7918,7 @@
       },
       {
         "text":"Delux",
-        "lemma":"Delux",
+        "lemma":"delux",
         "pos":"PROPN"
       },
       {
@@ -7928,7 +7928,7 @@
       },
       {
         "text":"Kudai",
-        "lemma":"Kudai",
+        "lemma":"kudai",
         "pos":"PROPN"
       },
       {
@@ -8080,7 +8080,7 @@
       },
       {
         "text":"Alejandro",
-        "lemma":"Alejandro",
+        "lemma":"alejandro",
         "pos":"PROPN"
       },
       {
@@ -8885,7 +8885,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -8952,7 +8952,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -8969,7 +8969,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -9004,7 +9004,7 @@
       },
       {
         "text":"Ciudad",
-        "lemma":"Ciudad",
+        "lemma":"ciudad",
         "pos":"PROPN"
       },
       {
@@ -9014,7 +9014,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -9056,7 +9056,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -9285,7 +9285,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -9375,7 +9375,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -9519,12 +9519,12 @@
       },
       {
         "text":"Daniel",
-        "lemma":"Daniel",
+        "lemma":"daniel",
         "pos":"PROPN"
       },
       {
         "text":"Hernández",
-        "lemma":"Hernández",
+        "lemma":"hernández",
         "pos":"PROPN"
       },
       {
@@ -9576,7 +9576,7 @@
       },
       {
         "text":"Times",
-        "lemma":"Times",
+        "lemma":"times",
         "pos":"PROPN"
       },
       {
@@ -9648,7 +9648,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -9720,7 +9720,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -10664,7 +10664,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -10686,7 +10686,7 @@
       },
       {
         "text":"Ollín",
-        "lemma":"Ollín",
+        "lemma":"ollín",
         "pos":"PROPN"
       },
       {
@@ -10860,7 +10860,7 @@
       },
       {
         "text":"Ustedes",
-        "lemma":"Ustedes",
+        "lemma":"ustedes",
         "pos":"PROPN"
       },
       {
@@ -10937,7 +10937,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -11687,7 +11687,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -11910,7 +11910,7 @@
       },
       {
         "text":"Kristoff",
-        "lemma":"Kristoff",
+        "lemma":"kristoff",
         "pos":"PROPN"
       },
       {
@@ -11935,7 +11935,7 @@
       },
       {
         "text":"Telehit",
-        "lemma":"Telehit",
+        "lemma":"telehit",
         "pos":"PROPN"
       },
       {
@@ -12030,7 +12030,7 @@
       },
       {
         "text":"MTV",
-        "lemma":"MTV",
+        "lemma":"mtv",
         "pos":"PROPN"
       },
       {
@@ -12191,7 +12191,7 @@
       },
       {
         "text":"Kristoff",
-        "lemma":"Kristoff",
+        "lemma":"kristoff",
         "pos":"PROPN"
       },
       {
@@ -12335,7 +12335,7 @@
     [
       {
         "text":"Número",
-        "lemma":"Número",
+        "lemma":"número",
         "pos":"PROPN"
       },
       {
@@ -12552,7 +12552,7 @@
       },
       {
         "text":"Camila",
-        "lemma":"Camila",
+        "lemma":"camila",
         "pos":"PROPN"
       },
       {
@@ -12562,12 +12562,12 @@
       },
       {
         "text":"Sin",
-        "lemma":"Sin",
+        "lemma":"sin",
         "pos":"ADP"
       },
       {
         "text":"Bandera",
-        "lemma":"Bandera",
+        "lemma":"bandera",
         "pos":"PROPN"
       },
       {
@@ -12577,12 +12577,12 @@
       },
       {
         "text":"José",
-        "lemma":"José",
+        "lemma":"josé",
         "pos":"PROPN"
       },
       {
         "text":"José",
-        "lemma":"José",
+        "lemma":"josé",
         "pos":"PROPN"
       },
       {
@@ -12592,7 +12592,7 @@
       },
       {
         "text":"Como",
-        "lemma":"Como",
+        "lemma":"como",
         "pos":"SCONJ"
       },
       {
@@ -12622,12 +12622,12 @@
       },
       {
         "text":"Daniel",
-        "lemma":"Daniel",
+        "lemma":"daniel",
         "pos":"PROPN"
       },
       {
         "text":"Hernández",
-        "lemma":"Hernández",
+        "lemma":"hernández",
         "pos":"PROPN"
       },
       {
@@ -12699,7 +12699,7 @@
       },
       {
         "text":"Kristoff",
-        "lemma":"Kristoff",
+        "lemma":"kristoff",
         "pos":"PROPN"
       },
       {
@@ -12741,7 +12741,7 @@
       },
       {
         "text":"Kristoff",
-        "lemma":"Kristoff",
+        "lemma":"kristoff",
         "pos":"PROPN"
       },
       {
@@ -12803,7 +12803,7 @@
       },
       {
         "text":"Güey",
-        "lemma":"Güey",
+        "lemma":"güey",
         "pos":"PROPN"
       },
       {
@@ -12864,11 +12864,11 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"ADJ"
+        "pos":"PUNCT"
       },
       {
         "text":"Fucking",
-        "lemma":"Fucking",
+        "lemma":"fucking",
         "pos":"PROPN"
       },
       {
@@ -12965,7 +12965,7 @@
     [
       {
         "text":"Kristoff",
-        "lemma":"Kristoff",
+        "lemma":"kristoff",
         "pos":"PROPN"
       },
       {
@@ -13193,7 +13193,7 @@
       },
       {
         "text":"Kristoff",
-        "lemma":"Kristoff",
+        "lemma":"kristoff",
         "pos":"PROPN"
       },
       {
@@ -13352,7 +13352,7 @@
       },
       {
         "text":"Kristoff",
-        "lemma":"Kristoff",
+        "lemma":"kristoff",
         "pos":"PROPN"
       },
       {
@@ -13594,7 +13594,7 @@
       },
       {
         "text":"Kristoff",
-        "lemma":"Kristoff",
+        "lemma":"kristoff",
         "pos":"PROPN"
       },
       {
@@ -13661,7 +13661,7 @@
     [
       {
         "text":"Ollín",
-        "lemma":"Ollín",
+        "lemma":"ollín",
         "pos":"PROPN"
       },
       {
@@ -13671,7 +13671,7 @@
       },
       {
         "text":"Alejandro",
-        "lemma":"Alejandro",
+        "lemma":"alejandro",
         "pos":"PROPN"
       },
       {
@@ -13711,7 +13711,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -13828,7 +13828,7 @@
       },
       {
         "text":"Sillones",
-        "lemma":"Sillones",
+        "lemma":"sillones",
         "pos":"PROPN"
       },
       {
@@ -13955,7 +13955,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -13965,7 +13965,7 @@
       },
       {
         "text":"Insurgentes",
-        "lemma":"Insurgentes",
+        "lemma":"insurgentes",
         "pos":"PROPN"
       },
       {
@@ -14017,7 +14017,7 @@
       },
       {
         "text":"Ciudad",
-        "lemma":"Ciudad",
+        "lemma":"ciudad",
         "pos":"PROPN"
       },
       {
@@ -14027,7 +14027,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -14057,7 +14057,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -14353,7 +14353,7 @@
       },
       {
         "text":"Insurgentes",
-        "lemma":"Insurgentes",
+        "lemma":"insurgentes",
         "pos":"PROPN"
       },
       {
@@ -14470,7 +14470,7 @@
       },
       {
         "text":"Sillones",
-        "lemma":"Sillones",
+        "lemma":"sillones",
         "pos":"PROPN"
       },
       {
@@ -14678,7 +14678,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -14944,7 +14944,7 @@
       },
       {
         "text":"Sillones",
-        "lemma":"Sillones",
+        "lemma":"sillones",
         "pos":"PROPN"
       },
       {
@@ -15138,12 +15138,12 @@
     [
       {
         "text":"Daniel",
-        "lemma":"Daniel",
+        "lemma":"daniel",
         "pos":"PROPN"
       },
       {
         "text":"Hernández",
-        "lemma":"Hernández",
+        "lemma":"hernández",
         "pos":"PROPN"
       },
       {
@@ -15200,7 +15200,7 @@
       },
       {
         "text":"Sillones",
-        "lemma":"Sillones",
+        "lemma":"sillones",
         "pos":"PROPN"
       },
       {
@@ -15389,7 +15389,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -15424,7 +15424,7 @@
       },
       {
         "text":"Sillones",
-        "lemma":"Sillones",
+        "lemma":"sillones",
         "pos":"PROPN"
       },
       {
@@ -15603,7 +15603,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -16023,7 +16023,7 @@
       },
       {
         "text":"Ciudad",
-        "lemma":"Ciudad",
+        "lemma":"ciudad",
         "pos":"PROPN"
       },
       {
@@ -16033,7 +16033,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -16416,7 +16416,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -16453,7 +16453,7 @@
       },
       {
         "text":"Ollín",
-        "lemma":"Ollín",
+        "lemma":"ollín",
         "pos":"PROPN"
       },
       {
@@ -16490,7 +16490,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -17208,7 +17208,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -17417,7 +17417,7 @@
       },
       {
         "text":"Querétaro",
-        "lemma":"Querétaro",
+        "lemma":"querétaro",
         "pos":"PROPN"
       },
       {
@@ -17479,7 +17479,7 @@
       },
       {
         "text":"Alejandro",
-        "lemma":"Alejandro",
+        "lemma":"alejandro",
         "pos":"PROPN"
       },
       {
@@ -18308,7 +18308,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -18497,7 +18497,7 @@
       },
       {
         "text":"Ciudad",
-        "lemma":"Ciudad",
+        "lemma":"ciudad",
         "pos":"PROPN"
       },
       {
@@ -18507,7 +18507,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -18564,12 +18564,12 @@
       },
       {
         "text":"My",
-        "lemma":"My",
+        "lemma":"my",
         "pos":"PROPN"
       },
       {
         "text":"Space",
-        "lemma":"Space",
+        "lemma":"space",
         "pos":"PROPN"
       },
       {
@@ -18684,7 +18684,7 @@
       },
       {
         "text":"Haz",
-        "lemma":"Haz",
+        "lemma":"haz",
         "pos":"PROPN"
       },
       {
@@ -18715,7 +18715,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"ADJ"
+        "pos":"PUNCT"
       },
       {
         "text":".",
@@ -18893,7 +18893,7 @@
       },
       {
         "text":"Kristoff",
-        "lemma":"Kristoff",
+        "lemma":"kristoff",
         "pos":"PROPN"
       },
       {
@@ -19027,7 +19027,7 @@
       },
       {
         "text":"Por",
-        "lemma":"Por",
+        "lemma":"por",
         "pos":"ADP"
       },
       {
@@ -19171,7 +19171,7 @@
     [
       {
         "text":"Déjenlos",
-        "lemma":"Déjenlos",
+        "lemma":"déjenlos",
         "pos":"PROPN"
       },
       {
@@ -19623,7 +19623,7 @@
       },
       {
         "text":"Madres",
-        "lemma":"Madres",
+        "lemma":"madres",
         "pos":"PROPN"
       },
       {
@@ -19747,7 +19747,7 @@
       },
       {
         "text":"Ciudad",
-        "lemma":"Ciudad",
+        "lemma":"ciudad",
         "pos":"PROPN"
       },
       {
@@ -19757,7 +19757,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -19842,7 +19842,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -19852,7 +19852,7 @@
       },
       {
         "text":"Insurgentes",
-        "lemma":"Insurgentes",
+        "lemma":"insurgentes",
         "pos":"PROPN"
       },
       {
@@ -19904,7 +19904,7 @@
       },
       {
         "text":"Querétaro",
-        "lemma":"Querétaro",
+        "lemma":"querétaro",
         "pos":"PROPN"
       },
       {
@@ -19993,7 +19993,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -20003,7 +20003,7 @@
       },
       {
         "text":"Insurgentes",
-        "lemma":"Insurgentes",
+        "lemma":"insurgentes",
         "pos":"PROPN"
       },
       {
@@ -20045,12 +20045,12 @@
       },
       {
         "text":"Salvador",
-        "lemma":"Salvador",
+        "lemma":"salvador",
         "pos":"PROPN"
       },
       {
         "text":"Castro",
-        "lemma":"Castro",
+        "lemma":"castro",
         "pos":"PROPN"
       },
       {
@@ -20087,7 +20087,7 @@
       },
       {
         "text":"Ciudad",
-        "lemma":"Ciudad",
+        "lemma":"ciudad",
         "pos":"PROPN"
       },
       {
@@ -20121,7 +20121,7 @@
     [
       {
         "text":"Salvador",
-        "lemma":"Salvador",
+        "lemma":"salvador",
         "pos":"PROPN"
       },
       {
@@ -20455,7 +20455,7 @@
       },
       {
         "text":"Salvador",
-        "lemma":"Salvador",
+        "lemma":"salvador",
         "pos":"PROPN"
       },
       {
@@ -20565,7 +20565,7 @@
       },
       {
         "text":"Salvador",
-        "lemma":"Salvador",
+        "lemma":"salvador",
         "pos":"PROPN"
       },
       {
@@ -20852,7 +20852,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -21184,7 +21184,7 @@
     [
       {
         "text":"Tocada",
-        "lemma":"Tocada",
+        "lemma":"tocada",
         "pos":"PROPN"
       },
       {
@@ -21221,7 +21221,7 @@
       },
       {
         "text":"Ollín",
-        "lemma":"Ollín",
+        "lemma":"ollín",
         "pos":"PROPN"
       },
       {
@@ -21231,7 +21231,7 @@
       },
       {
         "text":"Alejandro",
-        "lemma":"Alejandro",
+        "lemma":"alejandro",
         "pos":"PROPN"
       },
       {
@@ -21251,7 +21251,7 @@
       },
       {
         "text":"Sillones",
-        "lemma":"Sillones",
+        "lemma":"sillones",
         "pos":"PROPN"
       },
       {
@@ -21263,7 +21263,7 @@
     [
       {
         "text":"Alejandro",
-        "lemma":"Alejandro",
+        "lemma":"alejandro",
         "pos":"PROPN"
       },
       {
@@ -21653,7 +21653,7 @@
       },
       {
         "text":"Sillones",
-        "lemma":"Sillones",
+        "lemma":"sillones",
         "pos":"PROPN"
       },
       {
@@ -21772,7 +21772,7 @@
       },
       {
         "text":"Sillones",
-        "lemma":"Sillones",
+        "lemma":"sillones",
         "pos":"PROPN"
       },
       {
@@ -21924,7 +21924,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -22181,7 +22181,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"ADJ"
+        "pos":"PUNCT"
       },
       {
         "text":".",
@@ -22243,7 +22243,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"PROPN"
+        "pos":"PUNCT"
       },
       {
         "text":".",
@@ -22302,7 +22302,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"SYM"
+        "pos":"PUNCT"
       },
       {
         "text":"La",
@@ -22311,7 +22311,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -22567,7 +22567,7 @@
       },
       {
         "text":"Ollín",
-        "lemma":"Ollín",
+        "lemma":"ollín",
         "pos":"PROPN"
       },
       {
@@ -22577,7 +22577,7 @@
       },
       {
         "text":"Alejandro",
-        "lemma":"Alejandro",
+        "lemma":"alejandro",
         "pos":"PROPN"
       },
       {
@@ -23060,7 +23060,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"ADJ"
+        "pos":"PUNCT"
       },
       {
         "text":".",
@@ -23128,7 +23128,7 @@
       },
       {
         "text":"Pues",
-        "lemma":"Pues",
+        "lemma":"pues",
         "pos":"SCONJ"
       },
       {
@@ -23164,7 +23164,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"PROPN"
+        "pos":"PUNCT"
       },
       {
         "text":".",
@@ -23180,13 +23180,13 @@
       },
       {
         "text":"Cámara",
-        "lemma":"Cámara",
+        "lemma":"cámara",
         "pos":"PROPN"
       },
       {
         "text":"”",
         "lemma":"”",
-        "pos":"PROPN"
+        "pos":"PUNCT"
       },
       {
         "text":"es",
@@ -23221,7 +23221,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"ADJ"
+        "pos":"PUNCT"
       },
       {
         "text":".",
@@ -23785,7 +23785,7 @@
     [
       {
         "text":"Ollín",
-        "lemma":"Ollín",
+        "lemma":"ollín",
         "pos":"PROPN"
       },
       {
@@ -23857,7 +23857,7 @@
       },
       {
         "text":"Alejandro",
-        "lemma":"Alejandro",
+        "lemma":"alejandro",
         "pos":"PROPN"
       },
       {
@@ -24173,7 +24173,7 @@
     [
       {
         "text":"Salvador",
-        "lemma":"Salvador",
+        "lemma":"salvador",
         "pos":"PROPN"
       },
       {
@@ -24638,7 +24638,7 @@
     [
       {
         "text":"Hola",
-        "lemma":"Hola",
+        "lemma":"hola",
         "pos":"PROPN"
       },
       {
@@ -24653,12 +24653,12 @@
       },
       {
         "text":"Paola",
-        "lemma":"Paola",
+        "lemma":"paola",
         "pos":"PROPN"
       },
       {
         "text":"Aleán",
-        "lemma":"Aleán",
+        "lemma":"aleán",
         "pos":"PROPN"
       },
       {
@@ -24698,7 +24698,7 @@
       },
       {
         "text":"Deambulantes",
-        "lemma":"Deambulantes",
+        "lemma":"deambulantes",
         "pos":"PROPN"
       },
       {
@@ -24874,12 +24874,12 @@
       },
       {
         "text":"Radio",
-        "lemma":"Radio",
+        "lemma":"radio",
         "pos":"PROPN"
       },
       {
         "text":"Ambulante",
-        "lemma":"Ambulante",
+        "lemma":"ambulante",
         "pos":"PROPN"
       },
       {
@@ -24894,12 +24894,12 @@
       },
       {
         "text":"Daniel",
-        "lemma":"Daniel",
+        "lemma":"daniel",
         "pos":"PROPN"
       },
       {
         "text":"Alarcón",
-        "lemma":"Alarcón",
+        "lemma":"alarcón",
         "pos":"PROPN"
       },
       {
@@ -24976,7 +24976,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -25128,7 +25128,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -25138,7 +25138,7 @@
       },
       {
         "text":"Insurgentes",
-        "lemma":"Insurgentes",
+        "lemma":"insurgentes",
         "pos":"PROPN"
       },
       {
@@ -25183,7 +25183,7 @@
       },
       {
         "text":"Ciudad",
-        "lemma":"Ciudad",
+        "lemma":"ciudad",
         "pos":"PROPN"
       },
       {
@@ -25193,7 +25193,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -25433,7 +25433,7 @@
     [
       {
         "text":"Fernanda",
-        "lemma":"Fernanda",
+        "lemma":"fernanda",
         "pos":"PROPN"
       },
       {
@@ -25515,7 +25515,7 @@
       },
       {
         "text":"Alejandro",
-        "lemma":"Alejandro",
+        "lemma":"alejandro",
         "pos":"PROPN"
       },
       {
@@ -25560,7 +25560,7 @@
       },
       {
         "text":"Ollín",
-        "lemma":"Ollín",
+        "lemma":"ollín",
         "pos":"PROPN"
       },
       {
@@ -25719,7 +25719,7 @@
       },
       {
         "text":"Alejandro",
-        "lemma":"Alejandro",
+        "lemma":"alejandro",
         "pos":"PROPN"
       },
       {
@@ -25729,7 +25729,7 @@
       },
       {
         "text":"Salvador",
-        "lemma":"Salvador",
+        "lemma":"salvador",
         "pos":"PROPN"
       },
       {
@@ -25741,7 +25741,7 @@
     [
       {
         "text":"Pinches",
-        "lemma":"Pinches",
+        "lemma":"pinches",
         "pos":"PROPN"
       },
       {
@@ -25798,7 +25798,7 @@
       },
       {
         "text":"Ahorita",
-        "lemma":"Ahorita",
+        "lemma":"ahorita",
         "pos":"PROPN"
       },
       {
@@ -26199,7 +26199,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -26673,7 +26673,7 @@
       },
       {
         "text":"Sonido",
-        "lemma":"Sonido",
+        "lemma":"sonido",
         "pos":"PROPN"
       },
       {
@@ -28022,7 +28022,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -28032,7 +28032,7 @@
       },
       {
         "text":"Insurgentes",
-        "lemma":"Insurgentes",
+        "lemma":"insurgentes",
         "pos":"PROPN"
       },
       {
@@ -28284,7 +28284,7 @@
     [
       {
         "text":"Alejandro",
-        "lemma":"Alejandro",
+        "lemma":"alejandro",
         "pos":"PROPN"
       },
       {
@@ -28294,7 +28294,7 @@
       },
       {
         "text":"Ollín",
-        "lemma":"Ollín",
+        "lemma":"ollín",
         "pos":"PROPN"
       },
       {
@@ -28309,7 +28309,7 @@
       },
       {
         "text":"Salvador",
-        "lemma":"Salvador",
+        "lemma":"salvador",
         "pos":"PROPN"
       },
       {
@@ -28416,7 +28416,7 @@
       },
       {
         "text":"Ciudad",
-        "lemma":"Ciudad",
+        "lemma":"ciudad",
         "pos":"PROPN"
       },
       {
@@ -28426,7 +28426,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -28540,12 +28540,12 @@
       },
       {
         "text":"Darynkayna",
-        "lemma":"Darynkayna",
+        "lemma":"darynkayna",
         "pos":"PROPN"
       },
       {
         "text":"Marín",
-        "lemma":"Marín",
+        "lemma":"marín",
         "pos":"PROPN"
       },
       {
@@ -29313,12 +29313,12 @@
       },
       {
         "text":"Tianguis",
-        "lemma":"Tianguis",
+        "lemma":"tianguis",
         "pos":"PROPN"
       },
       {
         "text":"Cultural",
-        "lemma":"Cultural",
+        "lemma":"cultural",
         "pos":"PROPN"
       },
       {
@@ -29328,7 +29328,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -29582,7 +29582,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -30155,7 +30155,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -30217,12 +30217,12 @@
       },
       {
         "text":"Angélica",
-        "lemma":"Angélica",
+        "lemma":"angélica",
         "pos":"PROPN"
       },
       {
         "text":"González",
-        "lemma":"González",
+        "lemma":"gonzález",
         "pos":"PROPN"
       },
       {
@@ -30232,7 +30232,7 @@
       },
       {
         "text":"Angy",
-        "lemma":"Angy",
+        "lemma":"angy",
         "pos":"PROPN"
       },
       {
@@ -30254,12 +30254,12 @@
       },
       {
         "text":"Luna",
-        "lemma":"Luna",
+        "lemma":"luna",
         "pos":"PROPN"
       },
       {
         "text":"Negra",
-        "lemma":"Negra",
+        "lemma":"negra",
         "pos":"PROPN"
       },
       {
@@ -30620,7 +30620,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -30689,12 +30689,12 @@
       },
       {
         "text":"Luna",
-        "lemma":"Luna",
+        "lemma":"luna",
         "pos":"PROPN"
       },
       {
         "text":"Negra",
-        "lemma":"Negra",
+        "lemma":"negra",
         "pos":"PROPN"
       },
       {
@@ -30734,7 +30734,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -30744,7 +30744,7 @@
       },
       {
         "text":"Insurgentes",
-        "lemma":"Insurgentes",
+        "lemma":"insurgentes",
         "pos":"PROPN"
       },
       {
@@ -31141,7 +31141,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -31151,7 +31151,7 @@
       },
       {
         "text":"Insurgentes",
-        "lemma":"Insurgentes",
+        "lemma":"insurgentes",
         "pos":"PROPN"
       },
       {
@@ -31161,12 +31161,12 @@
       },
       {
         "text":"Luna",
-        "lemma":"Luna",
+        "lemma":"luna",
         "pos":"PROPN"
       },
       {
         "text":"Negra",
-        "lemma":"Negra",
+        "lemma":"negra",
         "pos":"PROPN"
       },
       {
@@ -31353,7 +31353,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"PROPN"
+        "pos":"PUNCT"
       },
       {
         "text":".",
@@ -31756,7 +31756,7 @@
       },
       {
         "text":"Insurgentes",
-        "lemma":"Insurgentes",
+        "lemma":"insurgentes",
         "pos":"PROPN"
       },
       {
@@ -31888,7 +31888,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -31969,7 +31969,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"PROPN"
+        "pos":"PUNCT"
       },
       {
         "text":".",
@@ -32163,7 +32163,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"PROPN"
+        "pos":"PUNCT"
       },
       {
         "text":",",
@@ -32301,7 +32301,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -32336,12 +32336,12 @@
       },
       {
         "text":"Luna",
-        "lemma":"Luna",
+        "lemma":"luna",
         "pos":"PROPN"
       },
       {
         "text":"Negra",
-        "lemma":"Negra",
+        "lemma":"negra",
         "pos":"PROPN"
       },
       {
@@ -32376,7 +32376,7 @@
       },
       {
         "text":"Darynkayna",
-        "lemma":"Darynkayna",
+        "lemma":"darynkayna",
         "pos":"PROPN"
       },
       {
@@ -32488,7 +32488,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -32562,7 +32562,7 @@
     [
       {
         "text":"Vámonos",
-        "lemma":"Vámonos",
+        "lemma":"vámonos",
         "pos":"PROPN"
       },
       {
@@ -32582,7 +32582,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -32592,7 +32592,7 @@
       },
       {
         "text":"Insurgentes",
-        "lemma":"Insurgentes",
+        "lemma":"insurgentes",
         "pos":"PROPN"
       },
       {
@@ -32818,12 +32818,12 @@
       },
       {
         "text":"Luna",
-        "lemma":"Luna",
+        "lemma":"luna",
         "pos":"PROPN"
       },
       {
         "text":"Negra",
-        "lemma":"Negra",
+        "lemma":"negra",
         "pos":"PROPN"
       },
       {
@@ -32833,7 +32833,7 @@
       },
       {
         "text":"Darynkayna",
-        "lemma":"Darynkayna",
+        "lemma":"darynkayna",
         "pos":"PROPN"
       },
       {
@@ -33075,7 +33075,7 @@
       },
       {
         "text":"Ciudad",
-        "lemma":"Ciudad",
+        "lemma":"ciudad",
         "pos":"PROPN"
       },
       {
@@ -33085,7 +33085,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -33291,7 +33291,7 @@
       },
       {
         "text":"Darynkayna",
-        "lemma":"Darynkayna",
+        "lemma":"darynkayna",
         "pos":"PROPN"
       },
       {
@@ -33537,7 +33537,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -33599,7 +33599,7 @@
       },
       {
         "text":"Darynkayna",
-        "lemma":"Darynkayna",
+        "lemma":"darynkayna",
         "pos":"PROPN"
       },
       {
@@ -33609,12 +33609,12 @@
       },
       {
         "text":"Luna",
-        "lemma":"Luna",
+        "lemma":"luna",
         "pos":"PROPN"
       },
       {
         "text":"Negra",
-        "lemma":"Negra",
+        "lemma":"negra",
         "pos":"PROPN"
       },
       {
@@ -33855,7 +33855,7 @@
     [
       {
         "text":"Darynkayna",
-        "lemma":"Darynkayna",
+        "lemma":"darynkayna",
         "pos":"PROPN"
       },
       {
@@ -34263,12 +34263,12 @@
       },
       {
         "text":"TV",
-        "lemma":"TV",
+        "lemma":"tv",
         "pos":"PROPN"
       },
       {
         "text":"Azteca",
-        "lemma":"Azteca",
+        "lemma":"azteca",
         "pos":"PROPN"
       },
       {
@@ -34278,7 +34278,7 @@
       },
       {
         "text":"Televisa",
-        "lemma":"Televisa",
+        "lemma":"televisa",
         "pos":"PROPN"
       },
       {
@@ -34438,7 +34438,7 @@
       },
       {
         "text":"Bravo",
-        "lemma":"Bravo",
+        "lemma":"bravo",
         "pos":"PROPN"
       },
       {
@@ -34503,7 +34503,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -34630,7 +34630,7 @@
       },
       {
         "text":"Ciudad",
-        "lemma":"Ciudad",
+        "lemma":"ciudad",
         "pos":"PROPN"
       },
       {
@@ -34640,7 +34640,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -34759,7 +34759,7 @@
     [
       {
         "text":"Dark",
-        "lemma":"Dark",
+        "lemma":"dark",
         "pos":"PROPN"
       },
       {
@@ -35235,12 +35235,12 @@
     [
       {
         "text":"Luna",
-        "lemma":"Luna",
+        "lemma":"luna",
         "pos":"PROPN"
       },
       {
         "text":"Negra",
-        "lemma":"Negra",
+        "lemma":"negra",
         "pos":"PROPN"
       },
       {
@@ -35250,7 +35250,7 @@
       },
       {
         "text":"Darynkayna",
-        "lemma":"Darynkayna",
+        "lemma":"darynkayna",
         "pos":"PROPN"
       },
       {
@@ -35437,7 +35437,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -35447,7 +35447,7 @@
       },
       {
         "text":"Insurgentes",
-        "lemma":"Insurgentes",
+        "lemma":"insurgentes",
         "pos":"PROPN"
       },
       {
@@ -35626,7 +35626,7 @@
       },
       {
         "text":"Tolerancia",
-        "lemma":"Tolerancia",
+        "lemma":"tolerancia",
         "pos":"PROPN"
       },
       {
@@ -35977,7 +35977,7 @@
       },
       {
         "text":"Respeto",
-        "lemma":"Respeto",
+        "lemma":"respeto",
         "pos":"PROPN"
       },
       {
@@ -36350,12 +36350,12 @@
       },
       {
         "text":"Daniel",
-        "lemma":"Daniel",
+        "lemma":"daniel",
         "pos":"PROPN"
       },
       {
         "text":"Hernández",
-        "lemma":"Hernández",
+        "lemma":"hernández",
         "pos":"PROPN"
       },
       {
@@ -36583,7 +36583,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"ADJ"
+        "pos":"PUNCT"
       },
       {
         "text":".",
@@ -36691,7 +36691,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -36706,7 +36706,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -36793,12 +36793,12 @@
     [
       {
         "text":"Luna",
-        "lemma":"Luna",
+        "lemma":"luna",
         "pos":"PROPN"
       },
       {
         "text":"Negra",
-        "lemma":"Negra",
+        "lemma":"negra",
         "pos":"PROPN"
       },
       {
@@ -36838,7 +36838,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -36930,7 +36930,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -37062,7 +37062,7 @@
       },
       {
         "text":"En",
-        "lemma":"En",
+        "lemma":"en",
         "pos":"ADP"
       },
       {
@@ -37102,7 +37102,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -37447,7 +37447,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -37628,7 +37628,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -37770,7 +37770,7 @@
       },
       {
         "text":"Bienvenidos",
-        "lemma":"Bienvenidos",
+        "lemma":"bienvenidos",
         "pos":"PROPN"
       },
       {
@@ -37780,7 +37780,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -37796,7 +37796,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"ADJ"
+        "pos":"PUNCT"
       },
       {
         "text":".",
@@ -37877,7 +37877,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -37923,7 +37923,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"ADJ"
+        "pos":"PUNCT"
       },
       {
         "text":".",
@@ -38138,7 +38138,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -38389,12 +38389,12 @@
       },
       {
         "text":"SOUNDBITE",
-        "lemma":"SOUNDBITE",
+        "lemma":"soundbite",
         "pos":"PROPN"
       },
       {
         "text":"ARCHIVOS",
-        "lemma":"ARCHIVOS",
+        "lemma":"archivos",
         "pos":"PROPN"
       },
       {
@@ -38514,7 +38514,7 @@
       },
       {
         "text":"Al",
-        "lemma":"Al",
+        "lemma":"al",
         "pos":"ADP"
       },
       {
@@ -38746,7 +38746,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -38970,7 +38970,7 @@
       },
       {
         "text":"Ciudad",
-        "lemma":"Ciudad",
+        "lemma":"ciudad",
         "pos":"PROPN"
       },
       {
@@ -38980,7 +38980,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -39007,12 +39007,12 @@
     [
       {
         "text":"Luna",
-        "lemma":"Luna",
+        "lemma":"luna",
         "pos":"PROPN"
       },
       {
         "text":"Negra",
-        "lemma":"Negra",
+        "lemma":"negra",
         "pos":"PROPN"
       },
       {
@@ -39022,7 +39022,7 @@
       },
       {
         "text":"Darynkayna",
-        "lemma":"Darynkayna",
+        "lemma":"darynkayna",
         "pos":"PROPN"
       },
       {
@@ -39195,7 +39195,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"ADJ"
+        "pos":"PUNCT"
       },
       {
         "text":".",
@@ -39261,7 +39261,7 @@
       },
       {
         "text":"Estado",
-        "lemma":"Estado",
+        "lemma":"estado",
         "pos":"PROPN"
       },
       {
@@ -39283,12 +39283,12 @@
       },
       {
         "text":"Comisión",
-        "lemma":"Comisión",
+        "lemma":"comisión",
         "pos":"PROPN"
       },
       {
         "text":"Nacional",
-        "lemma":"Nacional",
+        "lemma":"nacional",
         "pos":"PROPN"
       },
       {
@@ -39298,12 +39298,12 @@
       },
       {
         "text":"Derechos",
-        "lemma":"Derechos",
+        "lemma":"derechos",
         "pos":"PROPN"
       },
       {
         "text":"Humanos",
-        "lemma":"Humanos",
+        "lemma":"humanos",
         "pos":"PROPN"
       },
       {
@@ -39873,7 +39873,7 @@
       },
       {
         "text":"Glorieta",
-        "lemma":"Glorieta",
+        "lemma":"glorieta",
         "pos":"PROPN"
       },
       {
@@ -40186,12 +40186,12 @@
     [
       {
         "text":"Daniel",
-        "lemma":"Daniel",
+        "lemma":"daniel",
         "pos":"PROPN"
       },
       {
         "text":"Hernández",
-        "lemma":"Hernández",
+        "lemma":"hernández",
         "pos":"PROPN"
       },
       {
@@ -40667,7 +40667,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -41710,7 +41710,7 @@
       },
       {
         "text":"Kristoff",
-        "lemma":"Kristoff",
+        "lemma":"kristoff",
         "pos":"PROPN"
       },
       {
@@ -41741,7 +41741,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"ADJ"
+        "pos":"PUNCT"
       },
       {
         "text":".",
@@ -41830,7 +41830,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"PROPN"
+        "pos":"PUNCT"
       },
       {
         "text":",",
@@ -41849,7 +41849,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -42150,7 +42150,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -42370,7 +42370,7 @@
       {
         "text":"”",
         "lemma":"”",
-        "pos":"PROPN"
+        "pos":"PUNCT"
       },
       {
         "text":",",
@@ -42468,12 +42468,12 @@
     [
       {
         "text":"Daniel",
-        "lemma":"Daniel",
+        "lemma":"daniel",
         "pos":"PROPN"
       },
       {
         "text":"Hernández",
-        "lemma":"Hernández",
+        "lemma":"hernández",
         "pos":"PROPN"
       },
       {
@@ -42523,7 +42523,7 @@
       },
       {
         "text":"Down",
-        "lemma":"Down",
+        "lemma":"down",
         "pos":"PROPN"
       },
       {
@@ -42533,7 +42533,7 @@
       },
       {
         "text":"Delirious",
-        "lemma":"Delirious",
+        "lemma":"delirious",
         "pos":"PROPN"
       },
       {
@@ -42543,12 +42543,12 @@
       },
       {
         "text":"Mexico",
-        "lemma":"Mexico",
+        "lemma":"mexico",
         "pos":"PROPN"
       },
       {
         "text":"City",
-        "lemma":"City",
+        "lemma":"city",
         "pos":"PROPN"
       },
       {
@@ -42603,7 +42603,7 @@
       },
       {
         "text":"Ciudad",
-        "lemma":"Ciudad",
+        "lemma":"ciudad",
         "pos":"PROPN"
       },
       {
@@ -42613,7 +42613,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -42714,7 +42714,7 @@
       },
       {
         "text":"Times",
-        "lemma":"Times",
+        "lemma":"times",
         "pos":"PROPN"
       },
       {
@@ -42731,7 +42731,7 @@
       },
       {
         "text":"Mosco",
-        "lemma":"Mosco",
+        "lemma":"mosco",
         "pos":"PROPN"
       },
       {
@@ -42741,7 +42741,7 @@
       },
       {
         "text":"Bake",
-        "lemma":"Bake",
+        "lemma":"bake",
         "pos":"PROPN"
       },
       {
@@ -42761,7 +42761,7 @@
       },
       {
         "text":"Ollín",
-        "lemma":"Ollín",
+        "lemma":"ollín",
         "pos":"PROPN"
       },
       {
@@ -42771,7 +42771,7 @@
       },
       {
         "text":"Alejandro",
-        "lemma":"Alejandro",
+        "lemma":"alejandro",
         "pos":"PROPN"
       },
       {
@@ -42910,7 +42910,7 @@
     [
       {
         "text":"Darynkayna",
-        "lemma":"Darynkayna",
+        "lemma":"darynkayna",
         "pos":"PROPN"
       },
       {
@@ -42920,12 +42920,12 @@
       },
       {
         "text":"Luna",
-        "lemma":"Luna",
+        "lemma":"luna",
         "pos":"PROPN"
       },
       {
         "text":"Negra",
-        "lemma":"Negra",
+        "lemma":"negra",
         "pos":"PROPN"
       },
       {
@@ -42955,7 +42955,7 @@
       },
       {
         "text":"Chopo",
-        "lemma":"Chopo",
+        "lemma":"chopo",
         "pos":"PROPN"
       },
       {
@@ -43032,7 +43032,7 @@
       },
       {
         "text":"Ciudad",
-        "lemma":"Ciudad",
+        "lemma":"ciudad",
         "pos":"PROPN"
       },
       {
@@ -43042,7 +43042,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -43089,12 +43089,12 @@
       },
       {
         "text":"Roger",
-        "lemma":"Roger",
+        "lemma":"roger",
         "pos":"PROPN"
       },
       {
         "text":"Vela",
-        "lemma":"Vela",
+        "lemma":"vela",
         "pos":"PROPN"
       },
       {
@@ -43104,12 +43104,12 @@
       },
       {
         "text":"Pablo",
-        "lemma":"Pablo",
+        "lemma":"pablo",
         "pos":"PROPN"
       },
       {
         "text":"Merodio",
-        "lemma":"Merodio",
+        "lemma":"merodio",
         "pos":"PROPN"
       },
       {
@@ -43253,12 +43253,12 @@
       },
       {
         "text":"Fernanda",
-        "lemma":"Fernanda",
+        "lemma":"fernanda",
         "pos":"PROPN"
       },
       {
         "text":"Guzmán",
-        "lemma":"Guzmán",
+        "lemma":"guzmán",
         "pos":"PROPN"
       },
       {
@@ -43295,12 +43295,12 @@
       },
       {
         "text":"Radio",
-        "lemma":"Radio",
+        "lemma":"radio",
         "pos":"PROPN"
       },
       {
         "text":"Ambulante",
-        "lemma":"Ambulante",
+        "lemma":"ambulante",
         "pos":"PROPN"
       },
       {
@@ -43320,7 +43320,7 @@
       },
       {
         "text":"Ciudad",
-        "lemma":"Ciudad",
+        "lemma":"ciudad",
         "pos":"PROPN"
       },
       {
@@ -43330,7 +43330,7 @@
       },
       {
         "text":"México",
-        "lemma":"México",
+        "lemma":"méxico",
         "pos":"PROPN"
       },
       {
@@ -43367,12 +43367,12 @@
       },
       {
         "text":"Camila",
-        "lemma":"Camila",
+        "lemma":"camila",
         "pos":"PROPN"
       },
       {
         "text":"Segura",
-        "lemma":"Segura",
+        "lemma":"segura",
         "pos":"PROPN"
       },
       {
@@ -43382,12 +43382,12 @@
       },
       {
         "text":"Nicolás",
-        "lemma":"Nicolás",
+        "lemma":"nicolás",
         "pos":"PROPN"
       },
       {
         "text":"Alonso",
-        "lemma":"Alonso",
+        "lemma":"alonso",
         "pos":"PROPN"
       },
       {
@@ -43397,17 +43397,17 @@
       },
       {
         "text":"Luis",
-        "lemma":"Luis",
+        "lemma":"luis",
         "pos":"PROPN"
       },
       {
         "text":"Fernando",
-        "lemma":"Fernando",
+        "lemma":"fernando",
         "pos":"PROPN"
       },
       {
         "text":"Vargas",
-        "lemma":"Vargas",
+        "lemma":"vargas",
         "pos":"PROPN"
       },
       {
@@ -43434,12 +43434,12 @@
     [
       {
         "text":"Desirée",
-        "lemma":"Desirée",
+        "lemma":"desirée",
         "pos":"PROPN"
       },
       {
         "text":"Yépez",
-        "lemma":"Yépez",
+        "lemma":"yépez",
         "pos":"PROPN"
       },
       {
@@ -43496,12 +43496,12 @@
       },
       {
         "text":"Andrés",
-        "lemma":"Andrés",
+        "lemma":"andrés",
         "pos":"PROPN"
       },
       {
         "text":"Azpiri",
-        "lemma":"Azpiri",
+        "lemma":"azpiri",
         "pos":"PROPN"
       },
       {
@@ -43511,12 +43511,12 @@
       },
       {
         "text":"Rémy",
-        "lemma":"Rémy",
+        "lemma":"rémy",
         "pos":"PROPN"
       },
       {
         "text":"Lozano",
-        "lemma":"Lozano",
+        "lemma":"lozano",
         "pos":"PROPN"
       },
       {
@@ -43541,7 +43541,7 @@
       },
       {
         "text":"Rémy",
-        "lemma":"Rémy",
+        "lemma":"rémy",
         "pos":"PROPN"
       },
       {
@@ -43578,12 +43578,12 @@
       },
       {
         "text":"Radio",
-        "lemma":"Radio",
+        "lemma":"radio",
         "pos":"PROPN"
       },
       {
         "text":"Ambulante",
-        "lemma":"Ambulante",
+        "lemma":"ambulante",
         "pos":"PROPN"
       },
       {
@@ -43598,12 +43598,12 @@
       },
       {
         "text":"Paola",
-        "lemma":"Paola",
+        "lemma":"paola",
         "pos":"PROPN"
       },
       {
         "text":"Alean",
-        "lemma":"Alean",
+        "lemma":"alean",
         "pos":"PROPN"
       },
       {
@@ -43613,12 +43613,12 @@
       },
       {
         "text":"Lisette",
-        "lemma":"Lisette",
+        "lemma":"lisette",
         "pos":"PROPN"
       },
       {
         "text":"Arévalo",
-        "lemma":"Arévalo",
+        "lemma":"arévalo",
         "pos":"PROPN"
       },
       {
@@ -43628,12 +43628,12 @@
       },
       {
         "text":"Aneris",
-        "lemma":"Aneris",
+        "lemma":"aneris",
         "pos":"PROPN"
       },
       {
         "text":"Casassus",
-        "lemma":"Casassus",
+        "lemma":"casassus",
         "pos":"PROPN"
       },
       {
@@ -43643,12 +43643,12 @@
       },
       {
         "text":"Xochitl",
-        "lemma":"Xochitl",
+        "lemma":"xochitl",
         "pos":"PROPN"
       },
       {
         "text":"Fabián",
-        "lemma":"Fabián",
+        "lemma":"fabián",
         "pos":"PROPN"
       },
       {
@@ -43658,17 +43658,17 @@
       },
       {
         "text":"Camilo",
-        "lemma":"Camilo",
+        "lemma":"camilo",
         "pos":"PROPN"
       },
       {
         "text":"Jiménez",
-        "lemma":"Jiménez",
+        "lemma":"jiménez",
         "pos":"PROPN"
       },
       {
         "text":"Santofimio",
-        "lemma":"Santofimio",
+        "lemma":"santofimio",
         "pos":"PROPN"
       },
       {
@@ -43678,17 +43678,17 @@
       },
       {
         "text":"Laura",
-        "lemma":"Laura",
+        "lemma":"laura",
         "pos":"PROPN"
       },
       {
         "text":"Rojas",
-        "lemma":"Rojas",
+        "lemma":"rojas",
         "pos":"PROPN"
       },
       {
         "text":"Aponte",
-        "lemma":"Aponte",
+        "lemma":"aponte",
         "pos":"PROPN"
       },
       {
@@ -43698,12 +43698,12 @@
       },
       {
         "text":"Barbara",
-        "lemma":"Barbara",
+        "lemma":"barbara",
         "pos":"PROPN"
       },
       {
         "text":"Sawhill",
-        "lemma":"Sawhill",
+        "lemma":"sawhill",
         "pos":"PROPN"
       },
       {
@@ -43713,12 +43713,12 @@
       },
       {
         "text":"David",
-        "lemma":"David",
+        "lemma":"david",
         "pos":"PROPN"
       },
       {
         "text":"Trujillo",
-        "lemma":"Trujillo",
+        "lemma":"trujillo",
         "pos":"PROPN"
       },
       {
@@ -43728,17 +43728,17 @@
       },
       {
         "text":"Elsa",
-        "lemma":"Elsa",
+        "lemma":"elsa",
         "pos":"PROPN"
       },
       {
         "text":"Liliana",
-        "lemma":"Liliana",
+        "lemma":"liliana",
         "pos":"PROPN"
       },
       {
         "text":"Ulloa",
-        "lemma":"Ulloa",
+        "lemma":"ulloa",
         "pos":"PROPN"
       },
       {
@@ -43750,12 +43750,12 @@
     [
       {
         "text":"Emilia",
-        "lemma":"Emilia",
+        "lemma":"emilia",
         "pos":"PROPN"
       },
       {
         "text":"Erbetta",
-        "lemma":"Erbetta",
+        "lemma":"erbetta",
         "pos":"PROPN"
       },
       {
@@ -43787,12 +43787,12 @@
     [
       {
         "text":"Carolina",
-        "lemma":"Carolina",
+        "lemma":"carolina",
         "pos":"PROPN"
       },
       {
         "text":"Guerrero",
-        "lemma":"Guerrero",
+        "lemma":"guerrero",
         "pos":"PROPN"
       },
       {
@@ -43807,7 +43807,7 @@
       },
       {
         "text":"CEO",
-        "lemma":"CEO",
+        "lemma":"ceo",
         "pos":"PROPN"
       },
       {
@@ -43819,12 +43819,12 @@
     [
       {
         "text":"Radio",
-        "lemma":"Radio",
+        "lemma":"radio",
         "pos":"PROPN"
       },
       {
         "text":"Ambulante",
-        "lemma":"Ambulante",
+        "lemma":"ambulante",
         "pos":"PROPN"
       },
       {
@@ -43849,17 +43849,17 @@
       },
       {
         "text":"Radio",
-        "lemma":"Radio",
+        "lemma":"radio",
         "pos":"PROPN"
       },
       {
         "text":"Ambulante",
-        "lemma":"Ambulante",
+        "lemma":"ambulante",
         "pos":"PROPN"
       },
       {
         "text":"Estudios",
-        "lemma":"Estudios",
+        "lemma":"estudios",
         "pos":"PROPN"
       },
       {
@@ -43909,12 +43909,12 @@
       },
       {
         "text":"Hindenburg",
-        "lemma":"Hindenburg",
+        "lemma":"hindenburg",
         "pos":"PROPN"
       },
       {
         "text":"PRO",
-        "lemma":"PRO",
+        "lemma":"pro",
         "pos":"PROPN"
       },
       {
@@ -43926,12 +43926,12 @@
     [
       {
         "text":"Radio",
-        "lemma":"Radio",
+        "lemma":"radio",
         "pos":"PROPN"
       },
       {
         "text":"Ambulante",
-        "lemma":"Ambulante",
+        "lemma":"ambulante",
         "pos":"PROPN"
       },
       {
@@ -43956,12 +43956,12 @@
       },
       {
         "text":"América",
-        "lemma":"América",
+        "lemma":"américa",
         "pos":"PROPN"
       },
       {
         "text":"Latina",
-        "lemma":"Latina",
+        "lemma":"latina",
         "pos":"PROPN"
       },
       {
@@ -43973,17 +43973,17 @@
     [
       {
         "text":"Soy",
-        "lemma":"Soy",
+        "lemma":"soy",
         "pos":"PROPN"
       },
       {
         "text":"Daniel",
-        "lemma":"Daniel",
+        "lemma":"daniel",
         "pos":"PROPN"
       },
       {
         "text":"Alarcón",
-        "lemma":"Alarcón",
+        "lemma":"alarcón",
         "pos":"PROPN"
       },
       {

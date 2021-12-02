@@ -6,7 +6,11 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-fltk = "^1.2"
+# fltk = "^1.2"
 cpython = "0.7"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
+structopt = "0.3"
+crossterm = "0.22"
+tui = { version = "0.16", features = ["crossterm"] }
+textwrap = "0.14"

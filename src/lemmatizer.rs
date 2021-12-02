@@ -7,8 +7,10 @@ use std::path::Path;
 use serde::Deserialize;
 use serde_json::Value as JsonValue;
 
-pub type LemmaVec<'a> = Vec<(&'a String, &'a HashMap<String, Vec<(usize, usize)>>)>;
-pub type FormVec<'a> = Vec<(&'a String, &'a Vec<(usize, usize)>)>;
+pub type LemmaVecItem<'a> = (&'a String, &'a HashMap<String, Vec<(usize, usize)>>);
+pub type LemmaVec<'a> = Vec<LemmaVecItem<'a>>;
+pub type FormVecItem<'a> = (&'a String, &'a Vec<(usize, usize)>);
+pub type FormVec<'a> = Vec<FormVecItem<'a>>;
 pub type LemmaMap = HashMap<String, HashMap<String, Vec<(usize, usize)>>>;
 pub type FormMap = HashMap<String, Vec<(usize, usize)>>;
 
@@ -99,6 +101,33 @@ pub fn map_from_array(token_array: &Vec<Vec<Token>>) -> LemmaMap {
         }
     }
     lemma_map
+}
+
+pub fn get_sentence_split(
+    token_array: &Vec<Vec<Token>>,
+    sentence_i: usize,
+    token_i: usize,
+) -> (String, String, String) {
+    let mut before: String = String::from("");
+    let word: String = String::from(&token_array[sentence_i][token_i].text);
+    let mut after: String = String::from("");
+
+    for (i, token) in token_array[sentence_i].iter().enumerate() {
+        if i != 0 && token.pos != "PUNCT" {
+            if i < token_i {
+                before.push(' ');
+            } else if i > token_i {
+                after.push(' ');
+            }
+        }
+        if i < token_i {
+            before.push_str(&token.text);
+        } else if i > token_i {
+            after.push_str(&token.text);
+        }
+    }
+    before.push(' ');
+    (before, word, after)
 }
 
 pub fn get_sentence_bolded(

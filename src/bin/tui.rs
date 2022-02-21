@@ -13,7 +13,7 @@ use tui::{
     backend::{Backend, CrosstermBackend},
     layout::{Alignment, Constraint, Direction, Layout},
     style::{Color, Modifier, Style},
-    text::{Span, Spans, Text},
+    text::{Span, Spans},
     widgets::{Block, BorderType, Borders, List, ListItem, ListState},
     Frame, Terminal,
 };
@@ -384,7 +384,7 @@ fn ui<B: Backend>(f: &mut Frame<B>, app: &mut App) {
                 .items
                 .iter()
                 .enumerate()
-                .filter_map(|(i, (sentence_i, token_i))| {
+                .filter_map(|(_i, (sentence_i, token_i))| {
                     let (before, word, after) =
                         get_sentence_split(&app.token_array, *sentence_i, *token_i);
 

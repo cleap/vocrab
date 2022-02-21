@@ -14,3 +14,4 @@ structopt = "0.3"
 crossterm = "0.22"
 tui = { version = "0.16", features = ["crossterm"] }
 textwrap = "0.14"
+thiserror = "1.0"

@@ -1,11 +1,11 @@
 use std::collections::HashMap;
-use std::error::Error;
 use std::fs::File;
 use std::io::BufReader;
 use std::path::Path;
 //use cpython::{ObjectProtocol, PyModule, PyObject, PyResult, PySet, Python};
 use serde::Deserialize;
 use serde_json::Value as JsonValue;
+use thiserror::Error;
 
 pub type LemmaVecItem<'a> = (&'a String, &'a HashMap<String, Vec<(usize, usize)>>);
 pub type LemmaVec<'a> = Vec<LemmaVecItem<'a>>;
@@ -45,11 +45,27 @@ impl WordCount for LemmaMap {
     }
 }
 
-pub fn tokens_from_file<P: AsRef<Path>>(path: P) -> Result<Vec<Vec<Token>>, Box<dyn Error>> {
-    let file = File::open(path).expect("Could not open file");
+#[derive(Error, Debug)]
+pub enum LemmatizerError {
+    #[error("Could not open file")]
+    FileIOFailed(std::io::Error),
+    #[error("JSON parsing failed")]
+    JSONParseFailed(serde_json::Error),
+}
+/*
+pub fn load_file<P: AsRef<Path>>(path: P) -> Result<Vec<Vec<Token>>, LemmatizerError> {
+    Ok(vec![vec![Token {
+        text: "",
+        lemma: "",
+        pos: "",
+    }]])
+}
+*/
+pub fn tokens_from_file<P: AsRef<Path>>(path: P) -> Result<Vec<Vec<Token>>, LemmatizerError> {
+    let file = File::open(path).map_err(|e| LemmatizerError::FileIOFailed(e))?;
     let reader = BufReader::new(file);
     let values: JsonValue =
-        serde_json::from_reader(reader).expect("Could not convert reader to JSON Value");
+        serde_json::from_reader(reader).map_err(|e| LemmatizerError::JSONParseFailed(e))?;
     let sentences: Vec<JsonValue> = values
         .get("sentences")
         .unwrap()

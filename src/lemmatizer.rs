@@ -52,15 +52,68 @@ pub enum LemmatizerError {
     #[error("JSON parsing failed")]
     JSONParseFailed(serde_json::Error),
 }
-/*
-pub fn load_file<P: AsRef<Path>>(path: P) -> Result<Vec<Vec<Token>>, LemmatizerError> {
-    Ok(vec![vec![Token {
-        text: "",
-        lemma: "",
-        pos: "",
-    }]])
+
+pub struct Lemmatizer {
+    tokens: Vec<Vec<Token>>,
+    lemma_map: LemmaMap,
 }
-*/
+
+impl Lemmatizer {
+    pub fn new() -> Lemmatizer {
+        Lemmatizer {
+            tokens: Vec::new(),
+            lemma_map: HashMap::new(),
+        }
+    }
+
+    pub fn load_file<P: AsRef<Path>>(
+        &mut self,
+        path: P,
+    ) -> Result<&mut Lemmatizer, LemmatizerError> {
+        self.tokens.append(&mut tokens_from_file(path)?); // TODO Append instead of overwrite
+        self.lemma_map = map_from_array(&self.tokens);
+        Ok(self)
+    }
+
+    pub fn get_lemmas(&self) -> Vec<String> {
+        let mut lemma_vec: LemmaVec = self.lemma_map.iter().collect();
+        lemma_vec.sort_by(|a, b| b.1.word_count().cmp(&a.1.word_count()));
+        lemma_vec
+            .into_iter()
+            .map(|(lemma, _)| lemma.to_string())
+            .collect()
+    }
+
+    pub fn get_forms(&self, lemma: &str) -> Vec<String> {
+        match self.lemma_map.get(lemma) {
+            Some(map) => {
+                let mut form_vec: FormVec = map.into_iter().collect();
+                form_vec.sort_by(|a, b| b.1.len().cmp(&a.1.len()));
+                form_vec
+                    .into_iter()
+                    .map(|(form, _)| form.to_string())
+                    .collect()
+            }
+            None => Vec::new(),
+        }
+    }
+
+    pub fn get_usages(&self, lemma: &str, form: &str) -> Vec<(String, String, String)> {
+        match self.lemma_map.get(lemma) {
+            Some(map) => match map.get(form) {
+                Some(forms) => forms
+                    .into_iter()
+                    .map(|(sentence_i, token_i)| {
+                        get_sentence_split(&self.tokens, *sentence_i, *token_i)
+                    })
+                    .collect(),
+                None => Vec::new(),
+            },
+            None => Vec::new(),
+        }
+    }
+}
+
 pub fn tokens_from_file<P: AsRef<Path>>(path: P) -> Result<Vec<Vec<Token>>, LemmatizerError> {
     let file = File::open(path).map_err(|e| LemmatizerError::FileIOFailed(e))?;
     let reader = BufReader::new(file);

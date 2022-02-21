@@ -108,6 +108,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     // Load lemmatization
     let opt = Opt::from_args();
     let filepath = opt.file; //= "data/emos-vs-punks.json";
+
     let token_array = tokens_from_file(filepath).unwrap();
     let lemma_map = map_from_array(&token_array);
     let mut lemma_vec: LemmaVec = lemma_map.iter().collect();

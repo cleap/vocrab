@@ -15,7 +15,7 @@ pub type LemmaMap = HashMap<String, HashMap<String, Vec<(usize, usize)>>>;
 pub type FormMap = HashMap<String, Vec<(usize, usize)>>;
 
 #[derive(Deserialize, Debug)]
-pub struct Token {
+struct Token {
     text: String,
     lemma: String,
     pos: String,
@@ -114,7 +114,7 @@ impl Lemmatizer {
     }
 }
 
-pub fn tokens_from_file<P: AsRef<Path>>(path: P) -> Result<Vec<Vec<Token>>, LemmatizerError> {
+fn tokens_from_file<P: AsRef<Path>>(path: P) -> Result<Vec<Vec<Token>>, LemmatizerError> {
     let file = File::open(path).map_err(|e| LemmatizerError::FileIOFailed(e))?;
     let reader = BufReader::new(file);
     let values: JsonValue =
@@ -157,7 +157,7 @@ fn add_to_map(token: &Token, pos: (usize, usize), lemma_map: &mut LemmaMap) {
     }
 }
 
-pub fn map_from_array(token_array: &Vec<Vec<Token>>) -> LemmaMap {
+fn map_from_array(token_array: &Vec<Vec<Token>>) -> LemmaMap {
     let mut lemma_map: LemmaMap = HashMap::new();
 
     for (sentence_i, sentence) in token_array.iter().enumerate() {
@@ -172,7 +172,7 @@ pub fn map_from_array(token_array: &Vec<Vec<Token>>) -> LemmaMap {
     lemma_map
 }
 
-pub fn get_sentence_split(
+fn get_sentence_split(
     token_array: &Vec<Vec<Token>>,
     sentence_i: usize,
     token_i: usize,
@@ -199,11 +199,7 @@ pub fn get_sentence_split(
     (before, word, after)
 }
 
-pub fn get_sentence_bolded(
-    token_array: &Vec<Vec<Token>>,
-    sentence_i: usize,
-    token_i: usize,
-) -> String {
+fn get_sentence_bolded(token_array: &Vec<Vec<Token>>, sentence_i: usize, token_i: usize) -> String {
     let mut sentence: String = String::from("");
 
     for (i, token) in token_array[sentence_i].iter().enumerate() {

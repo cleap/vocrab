@@ -17,7 +17,7 @@ use tui::{
     widgets::{Block, BorderType, Borders, List, ListItem, ListState},
     Frame, Terminal,
 };
-use vocrab::lemmatizer::*;
+use vocrab::lemmatizer::Lemmatizer;
 
 #[derive(StructOpt)]
 struct Opt {
@@ -93,14 +93,13 @@ impl<T> StatefulList<T> {
 }
 
 // Application state
-struct App<'a> {
-    token_array: Vec<Vec<Token>>,
-    lemma_map: &'a LemmaMap,
-    lemma_vec: StatefulList<LemmaVecItem<'a>>,
+struct App {
+    lemmatizer: Lemmatizer,
+    lemma_vec: StatefulList<String>,
     curr_lemma: Option<String>,
-    form_vec: Option<StatefulList<FormVecItem<'a>>>,
+    form_vec: Option<StatefulList<String>>,
     curr_form: Option<String>,
-    usage_vec: Option<StatefulList<&'a (usize, usize)>>,
+    usage_vec: Option<StatefulList<(String, String, String)>>,
     column: AppColumn,
 }
 
@@ -109,10 +108,16 @@ fn main() -> Result<(), Box<dyn Error>> {
     let opt = Opt::from_args();
     let filepath = opt.file; //= "data/emos-vs-punks.json";
 
+    let mut lemmatizer = Lemmatizer::new();
+    lemmatizer.load_file(&filepath).unwrap();
+    let lemma_vec = lemmatizer.get_lemmas();
+
+    /*
     let token_array = tokens_from_file(filepath).unwrap();
     let lemma_map = map_from_array(&token_array);
     let mut lemma_vec: LemmaVec = lemma_map.iter().collect();
     lemma_vec.sort_by(|a, b| b.1.word_count().cmp(&a.1.word_count()));
+    */
 
     // setup terminal
     enable_raw_mode()?;
@@ -123,8 +128,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     // create app and run it
     let app = App {
-        token_array,
-        lemma_map: &lemma_map,
+        lemmatizer,
         lemma_vec: StatefulList::with_items(lemma_vec),
         curr_lemma: None,
         form_vec: None,
@@ -152,19 +156,18 @@ fn main() -> Result<(), Box<dyn Error>> {
 }
 
 fn update_form(app: &mut App) {
-    let (lemma, form_map) = match app.lemma_vec.state.selected() {
-        Some(i) => app.lemma_vec.items[i],
+    let lemma = match app.lemma_vec.state.selected() {
+        Some(i) => &app.lemma_vec.items[i],
         None => {
             app.lemma_vec.state.select(Some(0));
-            app.lemma_vec.items[0]
+            &app.lemma_vec.items[0]
         }
     };
 
     match &app.curr_lemma {
-        Some(curr_lemma) if curr_lemma == lemma => {}
+        Some(curr_lemma) if lemma.eq(curr_lemma) => {}
         _ => {
-            let mut form_vec: FormVec = form_map.iter().collect();
-            form_vec.sort_by(|a, b| b.1.len().cmp(&a.1.len()));
+            let form_vec = app.lemmatizer.get_forms(&lemma);
             app.form_vec = Some(StatefulList::with_items(form_vec));
             app.curr_lemma = Some(lemma.to_string());
             if let Some(form_vec) = &mut app.form_vec {
@@ -177,12 +180,12 @@ fn update_form(app: &mut App) {
 }
 
 fn update_usage(app: &mut App) {
-    let (form, usage_vec) = match &mut app.form_vec {
+    let form = match &mut app.form_vec {
         Some(form_vec) => match form_vec.state.selected() {
-            Some(i) => form_vec.items[i],
+            Some(i) => &form_vec.items[i],
             None => {
                 form_vec.state.select(Some(0));
-                form_vec.items[0]
+                &form_vec.items[0]
             }
         },
         None => {
@@ -190,7 +193,7 @@ fn update_usage(app: &mut App) {
             match &mut app.form_vec {
                 Some(form_vec) => {
                     form_vec.state.select(Some(0));
-                    form_vec.items[0]
+                    &form_vec.items[0]
                 }
                 None => {
                     eprintln!("Error: Unable to find form in update_usage");
@@ -201,13 +204,15 @@ fn update_usage(app: &mut App) {
     };
 
     match &app.curr_form {
-        Some(curr_form) if curr_form == form => {}
+        Some(curr_form) if form.eq(curr_form) => {}
         _ => {
-            let usage_vec: Vec<&(usize, usize)> = usage_vec.iter().collect();
-            app.usage_vec = Some(StatefulList::with_items(usage_vec));
-            app.curr_form = Some(form.to_string());
-            if let Some(usage_vec) = &mut app.usage_vec {
-                usage_vec.state.select(Some(0));
+            if let Some(lemma) = &app.curr_lemma {
+                let usage_vec = app.lemmatizer.get_usages(&lemma, &form);
+                app.usage_vec = Some(StatefulList::with_items(usage_vec));
+                app.curr_form = Some(form.to_string());
+                if let Some(usage_vec) = &mut app.usage_vec {
+                    usage_vec.state.select(Some(0));
+                }
             }
         }
     };
@@ -315,7 +320,7 @@ fn ui<B: Backend>(f: &mut Frame<B>, app: &mut App) {
         .items
         .iter()
         .enumerate()
-        .filter_map(|(i, (lemma, _))| {
+        .filter_map(|(i, lemma)| {
             let content = vec![Spans::from(Span::raw(format!("{:4}: {}", i + 1, lemma)))];
             Some(ListItem::new(content))
         })
@@ -343,7 +348,7 @@ fn ui<B: Backend>(f: &mut Frame<B>, app: &mut App) {
                 .items
                 .iter()
                 .enumerate()
-                .filter_map(|(i, (form, _))| {
+                .filter_map(|(i, form)| {
                     let content = vec![Spans::from(Span::raw(format!("{:4}: {}", i + 1, form)))];
                     Some(ListItem::new(content))
                 })
@@ -385,10 +390,8 @@ fn ui<B: Backend>(f: &mut Frame<B>, app: &mut App) {
                 .items
                 .iter()
                 .enumerate()
-                .filter_map(|(_i, (sentence_i, token_i))| {
-                    let (before, word, after) =
-                        get_sentence_split(&app.token_array, *sentence_i, *token_i);
-
+                .filter_map(|(_i, usage)| {
+                    let (before, word, after) = usage.to_owned();
                     let para_width = chunks[2].width as usize - 3;
 
                     let mut paragraph: Vec<Span> = match before.len() {
@@ -492,6 +495,8 @@ fn ui<B: Backend>(f: &mut Frame<B>, app: &mut App) {
     */
 }
 
+// DEPRECATED
+/*
 fn cli() {
     let opt = Opt::from_args();
     let filepath = opt.file; //= "data/emos-vs-punks.json";
@@ -530,4 +535,4 @@ fn cli() {
             );
         }
     }
-}
+}*/
